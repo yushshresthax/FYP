@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://unpkg.com/leaflet@1.9.3/dist/leaflet.css');
+
+* {
+  --color-black: rgb(28, 28, 28);
+  --color-main: #d48545;
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+label.imageUploader {
+  width: 100%;
+  display: block;
+}
+
+label.imageUploader>.imageHolder {
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+
+.main-bg {
+  background-color: var(--color-main);
+}
+
+
+.landing-holder {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.landing-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.landing-section .title {
+
+  font-size: 3.7rem;
+
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-family: 'Cormorant Upright', serif;
+
+}
+
+
+.landing-section .container {}
+
+label {
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.social{
+  background:#ED6B4B;
+  color:white;
+}
+
+.social:hover{
+  color:#ED6B4B;
+  background:white;
+}

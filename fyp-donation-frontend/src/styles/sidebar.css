@@ -1,0 +1,56 @@
+.sidebar{
+    position:fixed;
+    top:0px;
+    left: 0px;
+    bottom: 0px;
+    width: 250px;
+    background-color: var(--color-main);
+    overflow-y: auto;
+    
+  }
+
+  /* width */
+.sidebar::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  .sidebar::-webkit-scrollbar-track {
+    background: var(--color-main); 
+  }
+   
+  /* Handle */
+  .sidebar::-webkit-scrollbar-thumb {
+    background: white; 
+  }
+  
+  /* Handle on hover */
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.sidebar>.head{
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color:#1E1E1E ;
+  }
+  .sidebar .link .icon{
+    margin:0px 10px;
+  }
+  .sidebar .link{
+    padding:15px 10px;
+    display: block;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar .link.active{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .sidebar .link:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+  }
